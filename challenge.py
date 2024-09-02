@@ -52,7 +52,7 @@ already_decorated=apply_decorator(already_decorated) #Applying the decorator to 
 people=[('Bob', 40),('Mosh', 35),('Mike', 30)] #List of tuples containing names and ages
 
 def sort_by_age(age):
-    return age[1] #Returning the age from a tuple to use as a sorting key
+    return age[1] 
 
 people.sort(key=sort_by_age) #Sorting the list of people by age using sort_by_age function as the key
 print(people)
@@ -72,7 +72,6 @@ print(dict3)
 #Question 9
 class Car:
    def __init__(self, make, model, year): 
-       #Initializing make, model and year attributes
        self.make = make
        self.model = model
        self.year = year
